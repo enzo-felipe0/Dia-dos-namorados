@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: red;
+}
+
+.painel {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.sim {
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: white;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+.nao {
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.img-coracao {
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    padding-top: 30px;
+}
